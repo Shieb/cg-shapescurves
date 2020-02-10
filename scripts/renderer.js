@@ -2,7 +2,7 @@ class Renderer {
     // canvas:              object ({id: __, width: __, height: __})
     // num_curve_sections:  int
     constructor(canvas, num_curve_sections, show_points_flag) {
-        this.canvas = document.getElementById(canvas.id);
+        this.canvas = https://shieb.github.io/cg-shapescurves/
         this.canvas.width = canvas.width;
         this.canvas.height = canvas.height;
         this.ctx = this.canvas.getContext('2d');
